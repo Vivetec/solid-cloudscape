@@ -1,0 +1,21 @@
+{
+  "name": "@solid-cloudscape/eslint-plugin",
+  "version": "0.0.1",
+  "author": "Guru Prasath Anandapadmanaban",
+  "homepage": "https://github.com/Vivetec/solid-cloudscape#readme",
+  "directories": {
+    "lib": "src",
+    "test": "__tests__"
+  },
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "test": "node ./__tests__/ban-files.test.js && node ./__tests__/no-implicit-svg-focusable.test.js && node ./__tests__/prefer-live-region.test.js"
+  },
+  "repository": "git@github.com:Vivetec/solid-cloudscape.git",
+  "devDependencies": {
+    "eslint": "^8.54.0",
+    "micromatch": "^4.0.5"
+  }
+}
