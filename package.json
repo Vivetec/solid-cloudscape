@@ -1,0 +1,20 @@
+{
+  "name": "solid-cloudscape",
+  "version": "0.0.1",
+  "description": "SolidJS implementation of CloudScape Design System",
+  "repository": "git@github.com:Vivetec/solid-cloudscape.git",
+  "author": "Guru Prasath Anandapadmanaban",
+  "license": "Apache-2.0",
+  "keywords": [
+    "solidjs",
+    "cloudscape",
+    "components",
+    "typescript"
+  ],
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "lerna": "^7.4.2"
+  }
+}
